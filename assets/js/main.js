@@ -2,12 +2,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const overlay = document.getElementById("overlay")
     const enterButton = document.getElementById("enterButton")
     const backgroundVideo = document.getElementById("backgroundVideo")
-    const theme = "chill"
+    const theme = "central"
 
     backgroundVideo.controls = false
 
     if (theme == "chill") {
         backgroundVideo.src = "https://cdn.discordapp.com/attachments/1211139202104696875/1214921211344195614/song_1.mp4?ex=65fade8c&is=65e8698c&hm=975a1531e82a2748c1ad4e9a467af18aff221b6c47ea275b262dfec14fa238dc&"
+    } 
+
+    if (theme == "central") {
+        backgroundVideo.src = "https://cdn.discordapp.com/attachments/1210170250176368690/1218174196346261636/Export.mp4?ex=6606b420&is=65f43f20&hm=ce033481b87d241a972898d8ffca334e936b210fcab399333adc121c38c09f31&"
     } 
 
     if (theme == "drill") {
