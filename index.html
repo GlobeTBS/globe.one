@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Globe | @Namecall</title>
+	<link rel="icon" href="https://cdn.discordapp.com/attachments/929182821556305992/1179735347450617856/Me_In_My_Free_Time.jpg?ex=657add29&is=65686829&hm=4db362a59eeccf2559730c84dd46a335af26ea1732397bcf64e0c6f869192476&" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/card.css"> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+</head>
+ 
+<body>
+	<!-- Button Overlay -->
+	<div id="overlay">
+		<div class="overlay-content">
+			<button id="enterButton" class="button-replay">
+				<div class="text"></div>
+			</button>
+		</div>
+	</div>
+
+	<!-- Background Video -->
+	<video id="backgroundVideo" loop controls webkit-playsinline playsinline>
+		<source src="" type="video/mp4">Your browser does not support the video tag.
+	</video>	  
+
+	<!-- Main Handler -->
+	<div id="wrapper">
+		<div id="card">
+			<!--===== DISCORD PROFILE BANNER =====-->
+			<div id="banner" style="background-image: url(https://cdn.discordapp.com/banners/1206482053630005248/a_f938f9f6207ba645152fd8151d3f98b8.gif?size=600);"></div>
+			
+			<div id="user-info">
+				<div id="avatar">
+					<img src="" id="av">
+					<div id="status"></div>
+				</div>
+
+				<!--===== BADGES =====-->
+				<div id="badges"></div>
+
+				<!--===== NAME =====-->
+				<div id="username">globe<span>#0000</span></div>
+			</div>
+			<hr />
+
+			<!--===== ABOUT ME =====-->
+			<div id="about">
+				<h4>About me</h4>
+				<p>Lua Developer</p>
+				<p>JavaScript Developer</p>
+				<p>Soon To Be Php Demon</p>
+			</div>
+
+			<!--===== SOCIAL =====-->
+			<div id="social">
+				<a class="social-link" href="https://steamcommunity.com/id/hookmetamethod" target="_blank">
+					<img src="assets/images/steam.jpg" alt="Steam" />
+				</a>
+
+				<a class="social-link" href="https://github.com/GlobeReverse" target="_blank">
+					<img src="assets/images/github.png" alt="Github" />
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="https://unpkg.com/tippy.js@6"></script>
+	<script src="assets/js/config.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/socket.js"></script>
+	<script src="assets/js/scramble.js"></script>
+</body>
+ 
+</html>
