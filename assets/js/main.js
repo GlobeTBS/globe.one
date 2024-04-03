@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
     backgroundVideo.controls = false
 
     if (theme == "chill") {
-        backgroundVideo.src = "https://cdn.discordapp.com/attachments/1211139202104696875/1214921211344195614/song_1.mp4?ex=660d538c&is=65fade8c&hm=1d03fd7c2e81c393fb170b239ddc349dbb55ae783694906b3fb8c39f8a121a9b&"
+        backgroundVideo.src = "https://hideout.one/api/video/lol.mp4"
     } 
 
     if (theme == "central") {
-        backgroundVideo.src = "https://hideout.one/api/video/video.mp4"
+        backgroundVideo.src = "https://hideout.one/api/video/lol.mp4"
     } 
 
     if (theme == "drill") {
